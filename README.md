@@ -1,17 +1,17 @@
 # reddit-clone
 
-In this we have deploy this project in aws using eks service.
-in this project we have use terrafrom to build ec2 instance and update and download all the required files.
-We have also made jankins file to automate all the work or say maximum work...
-In jenkins filr we firstly clear our workspace then we checkout the code from github.           
-We also did sonarqube analysis to check our code quality for sonarqube to run we had made docker container to run it.    
-We have also use quality gates. 
-Then we install all the dependency to run our code.    
-We tehn check through trivy.     
-then make dockerimage and push that image in docker hub.         
-then we again perform trivy image scan to check all the are running fine.     
-Then if the steps are pass then we trigger our CD pipeline.
-We have also use promthenus grafana and argocd to check all the things are running fine.      
+In this we have deploy this project in aws using eks service.              
+in this project we have use terrafrom to build ec2 instance and update and download all the required files.               
+We have also made jenkins file to automate all the work or say maximum work...                        
+In jenkins file we firstly clear our workspace then we checkout the code from github.                            
+We also did sonarqube analysis to check our code quality for sonarqube to run we had made docker container to run it.                         
+We have also use quality gates.              
+Then we install all the dependency to run our code.                 
+We tehn check through trivy.                
+then make dockerimage and push that image in docker hub.                      
+then we again perform trivy image scan to check all the are running fine.               
+Then if the steps are pass then we trigger our CD pipeline.          
+We have also use promthenus grafana and argocd to check all the things are running fine.       
 
 this is the output page
 ![Screenshot 2024-07-03 185230](https://github.com/rachit1a/reddit-clone/assets/172263244/32e1bae3-c4b3-4859-b3c6-b75a8a8bd93e)
